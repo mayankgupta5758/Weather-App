@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - Check Weather Here....</title>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name...." spellcheck="false">
+            <button>
+                <lord-icon src="https://cdn.lordicon.com/kkvxgpti.json" trigger="hover" colors="primary:#d1e3fa"
+                    style="width:25px;height:25px">
+                </lord-icon>
+            </button>
+        </div>
+        <div class="error">
+            Invalid City Name!
+        </div>
+        <div class="weather">
+            <img src="image/rain.png" alt="rain" class="weather-img">
+            <h1 class="temp">0°C</h1>
+            <h2 class="city">-----</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="image/humidity.png" alt="humidity">
+                    <div>
+                        <p class="humidity">00%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="image/wind.png" alt="wind">
+                    <div>
+                        <p class="wind">00 km/h  </p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
